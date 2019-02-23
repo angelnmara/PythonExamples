@@ -1,0 +1,11 @@
+from collections import deque
+queue = deque(["Erick", "John", "Michael"])
+print(queue)
+queue.append("terry")
+print(queue)
+queue.append("graham")
+print(queue)
+queue.popleft()
+print(queue)
+queue.popleft()
+print(queue)
