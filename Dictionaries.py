@@ -15,3 +15,5 @@ print(dictator)
 
 dictatorEquals = dict(sape=4139, guido=4127, jack=4098)
 print(dictatorEquals)
+
+print({x:x**2 for x in (2,4,6)})
